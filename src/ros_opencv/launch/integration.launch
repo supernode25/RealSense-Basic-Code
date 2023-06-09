@@ -1,0 +1,17 @@
+<launch>
+    <!-- <group ns="jeonggi"> -->
+        <!-- <env name="ROS_MASTER_URI" value="http://192.168.0.4:11311" />
+        <env name="ROS_HOSTNAME" value="192.168.0.3" /> -->
+        <env name="ROS_NAMESPACE" value="jeonggi" />
+
+        <include file="$(find realsense2_camera)/launch/rs_camera.launch" />
+        <!-- <include file="$(find realsense2_camera)/launch/rs_camera.launch" ns="jeonggi"/> -->
+
+        <node name="sub_pub_image" pkg="ros_opencv" type="sub_pub_image" output="screen" >
+            <!-- <env name="ROS_MASTER_URI" value="http://192.168.0.4:11311" />
+            <env name="ROS_HOSTNAME" value="192.168.0.3" /> -->
+        </node>
+
+    <!-- </group> -->
+</launch>
+<!-- node 안에 설정했을 때 외부에서 값이 나오는지 확인 -->

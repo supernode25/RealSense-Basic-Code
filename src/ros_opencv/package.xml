@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ros_opencv</name>
+  <version>0.0.0</version>
+  <description>The ros_opencv package</description>
+
+  <maintainer email="bj@todo.todo">jeonggi</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>cv_bridge</depend>
+  <depend>roscpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>realsense2_camera</depend>
+
+  <export>
+  </export>
+</package>

@@ -1,0 +1,8 @@
+prefix=/home/cona/Ros-Basic-Code/install
+
+Name: ros_opencv
+Description: Description of ros_opencv
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: cv_bridge roscpp sensor_msgs

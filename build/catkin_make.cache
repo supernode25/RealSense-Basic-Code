@@ -1,0 +1,2 @@
+ros_opencv
+-DCATKIN_DEVEL_PREFIX=/home/cona/Ros-Basic-Code/devel -DCMAKE_INSTALL_PREFIX=/home/cona/Ros-Basic-Code/install -G Unix Makefiles
