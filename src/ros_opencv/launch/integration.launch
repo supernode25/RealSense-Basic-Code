@@ -2,10 +2,10 @@
     <!-- <group ns="jeonggi"> -->
         <!-- <env name="ROS_MASTER_URI" value="http://192.168.0.4:11311" />
         <env name="ROS_HOSTNAME" value="192.168.0.3" /> -->
-        <env name="ROS_NAMESPACE" value="jeonggi" />
+        <env name="ROS_NAMESPACE" value="bj" />
 
         <include file="$(find realsense2_camera)/launch/rs_camera.launch" />
-        <!-- <include file="$(find realsense2_camera)/launch/rs_camera.launch" ns="jeonggi"/> -->
+        <!-- <include file="$(find realsense2_camera)/launch/rs_camera.launch" ns="bj"/> -->
 
         <node name="sub_pub_image" pkg="ros_opencv" type="sub_pub_image" output="screen" >
             <!-- <env name="ROS_MASTER_URI" value="http://192.168.0.4:11311" />
